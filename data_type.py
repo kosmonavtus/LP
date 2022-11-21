@@ -1,8 +1,8 @@
 def have_fun(value: int, const: int = 10)-> int:
-    if value > 10 or value < 1:
+    if int(value) > 10 or int(value) < 1:
         raise 'i did told you no more than 10 and no less than 1'
     else:
-        result = int(value)+int(const)
+        result = value+const
         return result
 
 def what_is_y_name()-> str:
