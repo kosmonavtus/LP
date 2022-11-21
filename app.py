@@ -1,3 +1,4 @@
+token = str(input('insert bot toket hear dev was lazed'))
 from telegram.ext import Updater, CommandHandler
 
 def greet_user(update, context):
