@@ -17,19 +17,19 @@ def funy_print()-> None:
     try:
         print(float('1'), '- python could lead string to the float type')
     except Exception:
-        ValueError
+        TypeError
     try:
         print(bool(1), '- is TRUE! ')
     except Exception:
-        ValueError
+        TypeError
     try:
         print(bool(' '), "I wouldn't write like that empty sting in bool")
     except Exception:
-        ValueError
+        TypeError
     try:
         print(bool(0), 'It is work! returned False')
     except Exception:
-        ValueError
+        TypeError
     return None
     
 
