@@ -1,5 +1,5 @@
 def have_fun(value: int, const: int = 10)-> int:
-    if int(value) > 10 or int(value) < 1:
+    if 1 < value < 10:
         raise 'i did told you need number no more than 10 and less than 1'
     else:
         result = value+const

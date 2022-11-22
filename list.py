@@ -1,4 +1,4 @@
-example_list = [3,5,7,9,10.5]
+example_list = [3, 5, 7, 9, 10.5]
 print(example_list)
 example_list.append('python')
 print(len(example_list))
