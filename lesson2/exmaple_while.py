@@ -9,7 +9,7 @@ def find_person(some_list):
 #find_person(some_list)
 
 
-def ask_user(answer = None):
+def ask_user():
     while True:
         value = input("Как дела?\n")
         if value == 'хорошо':
